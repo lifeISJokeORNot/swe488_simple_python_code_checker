@@ -1,0 +1,59 @@
+# Core Code Analysis Tools
+flake8==7.0.0
+radon==6.0.1
+bandit==1.7.7
+mccabe==0.7.0
+pycodestyle==2.11.1
+pyflakes==3.2.0
+
+# Web Framework (for Dashboard)
+Flask==3.0.0
+Flask-CORS==4.0.1
+
+# Report Generation
+Jinja2==3.1.2
+WeasyPrint==60.2
+pdfkit==1.0.0
+markdown==3.5.1
+
+# GitHub Integration
+PyGithub==2.1.1
+requests==2.31.0
+
+# Database
+SQLAlchemy==2.0.23
+sqlite-utils==3.36
+
+# Testing Tools
+pytest==8.0.0
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+coverage==7.4.0
+selenium==4.16.0
+locust==2.20.0
+tox==4.12.1
+
+# API Testing
+httpx==0.26.0
+requests-mock==1.11.0
+
+# Security Testing (additional)
+safety==2.3.5
+vulnscan==0.1.0
+
+# Development Utilities
+python-dotenv==1.0.0
+colorama==0.4.6
+tqdm==4.66.1
+click==8.1.7
+
+# Code Formatting (for our own code)
+black==23.12.1
+isort==5.13.2
+
+# For parsing and processing
+pyyaml==6.0.1
+json5==0.9.14
+
+# For duplicate code detection
+jscpd==3.5.1
