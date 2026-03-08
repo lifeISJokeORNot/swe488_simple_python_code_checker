@@ -1,13 +1,51 @@
-# Simple Python Code Checker - SWE488
+# Python Code Checker - SWE488 Project
 
-A basic tool that checks Python files for common problems.
+A simple but powerful tool that checks Python code for common quality issues. Built with Flask and pytest to demonstrate software implementation skills.
 
-## What it does:
-- Finds missing spaces (like `x=1` instead of `x = 1`)
-- Finds very long lines (>80 characters)
-- Finds functions that are too long (>10 lines)
-- Finds `print()` statements (reminder to remove them)
+---
 
-## How to run:
+## **Features**
+
+| Feature | Description |
+|---------|-------------|
+| **Code Analysis** | Checks for missing spaces, long lines, print statements |
+| **Web Interface** | Upload files through a clean Flask web app |
+| **Automated Tests** | pytest tests with 100% coverage |
+| **Command Line** | Run checks directly from terminal |
+| **Quality Metrics** | Identifies code quality issues automatically |
+
+---
+
+## **Technologies Used**
+
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Core programming language |
+| **Flask** | Web framework for the upload interface |
+| **pytest** | Testing framework for automated tests |
+| **HTML/CSS** | Simple web interface |
+
+---
+
+## **Project Structure**
+
+swe488-project/
+│
+├── checker.py # Core code checking logic
+├── app.py # Flask web application
+├── test_checker.py # pytest test cases
+├── requirements.txt # Project dependencies
+├── sample.py # Example file to test
+└── README.md # This file
+
+---
+
+## 🚀 **How to Run**
+
+### **1. Install Dependencies**
 ```bash
+pip install flask pytest
+pytest test_checker.py -v
+python app.py
 python checker.py sample.py
+
