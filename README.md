@@ -57,3 +57,4 @@ python app.py
 ### **4. Run Command Line (Original version)**
 ```bash
 python checker.py sample.py
+```
