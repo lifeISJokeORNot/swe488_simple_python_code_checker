@@ -29,7 +29,7 @@ A simple but powerful tool that checks Python code for common quality issues. Bu
 
 ## **Project Structure**
 
-swe488-project/
+swe488_simple_python_code_checker /
 │
 ├── checker.py # Core code checking logic
 ├── app.py # Flask web application
