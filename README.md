@@ -40,12 +40,20 @@ swe488_simple_python_code_checker/
 
 ---
 
-## 🚀 **How to Run**
+## **How to Run**
 
 ### **1. Install Dependencies**
 ```bash
 pip install flask pytest
+```
+### **2. Run Tests (Shows testing knowledge)**
+```bash
 pytest test_checker.py -v
+```
+### **3. Run Web Interface (Shows framework knowledge)**
+```bash
 python app.py
+```
+### **4. Run Command Line (Original version)**
+```bash
 python checker.py sample.py
-
