@@ -1,4 +1,4 @@
-# Python Code Checker - SWE488 Project
+# Python Code Checker 
 
 A simple but powerful tool that checks Python code for common quality issues. Built with Flask and pytest to demonstrate software implementation skills.
 
